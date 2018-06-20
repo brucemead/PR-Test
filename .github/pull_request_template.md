@@ -1,24 +1,33 @@
-Vortex TEST 1
+## Please, go through these steps before you submit a PR.
 
-<!--- Provide a general summary of the Pull Request in the Title above -->
+1. Make sure that your PR is not a duplicate.
+2. If not, then make sure that:
 
-### Description
-<!--- Provide a description of the changes proposed in the pull request -->
+  2.1. You **MUST** do your changes in a separate branch.
+  
+  2.2. Branches **MUST** have:
+  
+  2.2.1. Descriptive names
+  
+  2.2.2. Include a valid JIRA ticket key
+  
+  2.2.3. Start with either the `fix/`, `patch/`, `hotfix/`, `upgrade/`, `release/` or `feature/` prefixes. Good examples are: `fix/sla-2444-less-compilation-by-adding-missing-variable`, `feature/sla-2443-add-new-blog-module` or `upgrade/sla-2445-upgrage-to-magento-2.2.4`.
 
-### Fixed Issues (if relevant)
-<!--- Provide a list of fixed issues in the format magento/magento2#<issue_number>, if relevant  -->
-1. magento/magento2#<issue_number>: Issue title
-2. ...
+  2.2. You **MUST** have a descriptive commit message with a short title (first line) that includes a valid JIRA ticket key.
 
-### Manual testing scenarios
-<!--- Provide a set of unambiguous steps to test the proposed code change -->
-1. ...
-2. ...
+  2.3. You **MUST** successfully run related build commands `php bin/magento setup:di:compile` or `php bin/magento setup:di:compile`
+  
+3. **After** these steps, you're ready to open a pull request.
 
-### Contribution checklist
- - [ ] Pull request has a meaningful description of its purpose
- - [ ] All commits are accompanied by meaningful commit messages
- - [ ] All new or changed code is covered with unit/integration tests (if applicable)
- - [ ] All automated tests passed successfully (all builds on Travis CI are green)
+  3.1. Your pull request **MUST NOT** target the `master` branch on this repository.
+  
+  3.2. You **MUST** ensure your branch has first been PR'd and tested on `development` and then `staging`.
 
-CHaNGE2
+  3.2. **Title to your PR** clearly for the changes presented.
+
+  3.3. **Detailed description** of your changes and references to all JIRA tickets relating to the commits.
+
+**PLEASE REMOVE THIS TEMPLATE BEFORE SUBMITTING**
+
+:muscle: Thank you!
+:heart:
