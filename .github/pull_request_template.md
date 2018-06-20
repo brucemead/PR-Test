@@ -29,5 +29,5 @@
 
 **PLEASE REMOVE THIS TEMPLATE BEFORE SUBMITTING**
 
-:muscle: Thank you!
-:heart:
+Thank you!
+:muscle: :heart:
