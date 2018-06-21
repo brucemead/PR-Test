@@ -18,7 +18,7 @@ Branch Prefix | Purpose
 `feature/` | I'm adding a new feature or expanding on an existing one.
 `fix/` | I'm fixing an issue with an existing feature or existing code.
 `patch/` | I'm introducing a new patch, this could be one of our own standard patches or a Magento SUPEE patch.
-`upgrade/` Upgrading the core application version.
+`upgrade/` | Upgrading the core application version.
 `hotfix/` | This is for any fixes that will enter an expedited workflow and potentially get merged directly to `master`.
 `release/` | This is replacing merging directly to `master` and is used to prepare all the above for deployment release. No work should be undertaken in this branch directly. These branch should only be created by deployers.
 
