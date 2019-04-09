@@ -1,0 +1,8 @@
+stages:
+- name: test
+  steps:
+  - runScriptConfig:
+      image: php:latest
+      shellScript: echo 'test';
+timeout: 60
+notification: {}
